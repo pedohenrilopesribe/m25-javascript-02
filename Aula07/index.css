@@ -1,0 +1,57 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    text-align: justify;
+    padding: 0 10px; /* topo-base esquerda-direita */
+}
+section > h2 {
+    padding-left: 10px;
+    color: blue;
+}
+h2 + h4 { /* irmão direto */
+    color: green;
+    padding-left: 10px;
+}
+h2 ~ p {
+    margin-left: 5px;
+}
+h2 + p {
+    margin-left: 10px;
+}
+ header h1 {
+    color: rgb(5, 63, 255);
+ }
+  .menu {
+    display: flex;
+  }
+   .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: darkslateblue;
+    font-weight: bold;
+}
+.menu ul li:first-child a {
+    background-color: aquamarine;
+}
+.menu ul li :last-child a {
+    background-color: brown;
+}
+.menu ul li a:hover {
+    background-color: burlywood;
+}
+/* seletor de id */
+#referencias p {
+    padding-top: 10px;
+}
